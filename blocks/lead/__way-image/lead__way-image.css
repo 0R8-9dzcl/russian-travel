@@ -1,0 +1,31 @@
+.lead__way-image {
+    position: absolute;
+    top: 90px;
+    left: 23px;
+    max-width: 938px;
+    max-height: 264px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__way-image {
+        max-width: 884px;
+        max-height: 248px;
+        top: 86px;
+        left: 22px;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .lead__way-image {
+        max-width: 95.3%;
+        top: 70px;
+        left: 18px;        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__way-image {
+        top: 29px;
+        left: 6px;
+    }
+}
