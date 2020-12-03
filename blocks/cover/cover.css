@@ -2,21 +2,6 @@
     padding-top: 92px;
     margin: 0 auto;
 }
-/* 
-.cover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0.3;
-    background: #2A2C2F;
-}
-
-.cover::before:hover {
-    opacity: 0.8;
-} */
 
 @media screen and (max-width: 768px) {
     .cover {

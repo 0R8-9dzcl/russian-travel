@@ -1,0 +1,142 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFF;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+.cover {
+    padding-top: 92px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        padding-top: 66px;
+    }
+}
+
+.cover__content {
+    margin: 0 auto;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover__link {
+    margin: 0 auto;
+    text-decoration: none;
+    background-image: url(./cover__background.png);
+    display: flex;
+    flex-direction: column;
+    max-width: 92.5vw;
+    min-height: 57.81vw;
+    background-size: cover;
+    position: relative;
+}
+
+.cover__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: opacity linear .3s;
+    opacity: 0.3;
+    background: #2A2C2F;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1025px) {
+    .cover__link {
+        max-width: 100vw;
+        height: 62.5vw;
+    }
+}
+
+.cover__subtitle {
+    max-width: 360px;
+    margin: 32px auto 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 2.34vw;
+        line-height: 122%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        max-width: 273px;
+        margin: 16px auto 0;
+        font-size: 14px;
+        line-height: 114%;
+    }
+}
+
+.cover__title {
+    margin: 0 auto;
+    max-width: 560px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 0 auto;
+        font-size: 9.38vw;
+        line-height: 106%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        margin: 0 auto;
+        max-width: 288px;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 109%;
+    }
+}
