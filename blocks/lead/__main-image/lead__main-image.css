@@ -1,0 +1,16 @@
+.lead__main-image {
+    position: relative;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__main-image {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .lead__main-image {
+        max-width: 100%;
+    }
+}
