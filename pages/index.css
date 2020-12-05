@@ -38,7 +38,6 @@
 /* cover */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
-@import url("../blocks/cover/__content/cover__content.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 /* footer */
@@ -47,8 +46,3 @@
 @import url("../blocks/footer/__list-item/footer__list-item.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
-
-/* Исправил что понял и смог, проверял в других браузерах порблем не выявил
-Всё что "подробнее" и неже исправил 
-переименовал cover__link в cover__overlay
-и ещё несколько изменений*/

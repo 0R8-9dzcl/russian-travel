@@ -1,7 +1,7 @@
 .cover__overlay {
     margin: 0 auto;
     text-decoration: none;
-    background-image: url(../../../images/cover__background.png);
+    background-image: url(../../../images/cover__background.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,8 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 740px;
-    /* испправил растяжение картинки на больших разрешениях, пробовал гридом, minmax на сторчках не работает, 
-    фракции без высоты не работают, flex без высоты не работает, я чксто пытался сделать по другому. */
     position: relative;
 }
 

@@ -12,10 +12,3 @@
         line-height: 163%;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .place__main-text {
-        font-size: 16px;
-        line-height: 163%;
-    }
-}
