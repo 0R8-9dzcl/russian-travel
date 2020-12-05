@@ -1,0 +1,38 @@
+.cover__overlay {
+    margin: 0 auto;
+    text-decoration: none;
+    background-image: url(../../../images/cover__background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 740px;
+    /* испправил растяжение картинки на больших разрешениях, пробовал гридом, minmax на сторчках не работает, 
+    фракции без высоты не работают, flex без высоты не работает, я чксто пытался сделать по другому. */
+    position: relative;
+}
+
+.cover__overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: opacity linear .3s;
+    opacity: 0.3;
+    background: #2A2C2F;
+}
+
+.cover__overlay:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        max-width: 100%;
+        min-height: 62.5vw;
+    }
+}
